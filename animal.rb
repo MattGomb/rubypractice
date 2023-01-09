@@ -12,6 +12,6 @@ class Animal
   attr_accessor :name
 
   def speak
-    "grrrr"
+    'i am an animal'
   end
 end
