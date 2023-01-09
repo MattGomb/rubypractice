@@ -13,4 +13,5 @@ class Spider < Animal
 
   def speak
     '...'
+  end
 end
