@@ -12,11 +12,6 @@ class Animal
   attr_accessor :name
 
   def speak
-    case @type
-    when 'dog'
-      'Woof, woof'
-    when 'spider'
-      '...'
-    end
+    "grrrr"
   end
 end
