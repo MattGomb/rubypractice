@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'animal'
 
 # Spider class derived from Animal
