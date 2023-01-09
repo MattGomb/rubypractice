@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './animal'
 
 # Cat class derived from Animal
