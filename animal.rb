@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# main class Animals to create template
 class Animal
   def initialize(type, number_of_legs, name = 'Unknown')
     @id = Random.rand(1..1000)

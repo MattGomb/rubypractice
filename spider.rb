@@ -2,6 +2,7 @@
 
 require 'animal'
 
+# Spider class derived from Animal
 class Spider < Animal
   def initialize(web_strength_level, name = 'unknown')
     super('spider', 8, name)
