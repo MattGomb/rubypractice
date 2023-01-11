@@ -8,12 +8,12 @@ class Animal
     @name = name
     @number_of_legs = number_of_legs
     @type = type
-    @liked_food = NoFood.new()
+    @liked_food = NoFood.new
   end
 
   attr_reader :id, :type, :number_of_legs
 
-  attr_accessor :name, :owner
+  attr_accessor :name
 
   def owner=(owner)
     @owner = owner
@@ -25,7 +25,7 @@ class Animal
   end
 
   def remove_leg
-    remover = Remover.new()
+    remover = Remover.new
     @number_of_legs = remover.decrease(@number_of_legs)
   end
 
