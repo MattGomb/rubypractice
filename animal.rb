@@ -8,10 +8,11 @@ class Animal
     @name = name
     @number_of_legs = number_of_legs
     @type = type
-    @liked_food = NoFood.new
+    @liked_food = NoFood.new()
+    @visits = []
   end
 
-  attr_reader :id, :type, :number_of_legs
+  attr_reader :id, :type, :number_of_legs, :owner, :visits
 
   attr_accessor :name
 
