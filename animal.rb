@@ -13,7 +13,12 @@ class Animal
 
   attr_reader :id, :type, :number_of_legs
 
-  attr_accessor :name
+  attr_accessor :name, :owner
+
+  def owner=(owner)
+    @owner = owner
+    owner.animals.push(self) unless owner.animals.include?(self)
+  end
 
   def speak
     'i am an animal'
